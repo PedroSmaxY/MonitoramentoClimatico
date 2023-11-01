@@ -20,9 +20,9 @@ Para usar o programa, siga estas etapas:
 
 ## Exemplo
 
-### python climate_data.csv está dentro do repositório como um exemplo de dados
+python climate_data.csv está dentro do repositório como um exemplo de dados
 
-### Este exemplo irá detectar mudanças significativas na temperatura usando um limiar de 2 graus Celsius.
+Este exemplo irá detectar mudanças significativas na temperatura usando um limiar de 2 graus Celsius.
 
 ## Exemplo de Gráfico Gerado
 
