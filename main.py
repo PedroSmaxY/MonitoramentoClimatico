@@ -1,6 +1,6 @@
-import data_loader
-import data_processing
-import data_visualization
+from src import data_loader
+from src import data_processing
+from src import data_visualization
 
 
 def main():
