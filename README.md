@@ -1,6 +1,6 @@
 # Monitoramento Climático
 
-Este programa detecta mudanças significativas na temperatura usando uma derivada da temperatura com média móvel de 3 dias.
+Este programa detecta mudanças significativas na temperatura usando uma derivada da temperatura com média móvel de 2 dias.
 
 ## Instalação
 Para instalar o programa, siga estas etapas:
@@ -14,20 +14,18 @@ Para instalar o programa, siga estas etapas:
 
 Para usar o programa, siga estas etapas:
 
-1. Insira o caminho do arquivo CSV com os dados climáticos no argumento `nome_arquivo`.
-2. Insira o limiar de mudança significativa no argumento `limiar`.
+1. Insira o caminho do arquivo CSV com os dados climáticos no argumento `nome_arquivo` no arquivo src/main.py.
+2. Insira o limiar de mudança significativa no argumento `limiar` no arquivo src/main.py.
 
 ## Exemplo
 
-python deteccao_mudancas_temperatura.py data/dados_climaticos.csv 2
+### python climate_data.csv está dentro do repositório como um exemplo de dados
 
-Este exemplo irá detectar mudanças significativas na temperatura usando um limiar de 2 graus Celsius.
+### Este exemplo irá detectar mudanças significativas na temperatura usando um limiar de 2 graus Celsius.
 
 ## Exemplo de Gráfico Gerado
 
 ![image](https://github.com/PedroSmaxY/MonitoramentoClimatico/assets/127573080/276c5ec3-4341-4eec-9d23-3aa6db22a762)
-
-
 
 ## Resultados
 O programa irá gerar um gráfico mostrando os dados climáticos e as mudanças detectadas. O gráfico terá as seguintes características:
