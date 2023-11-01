@@ -4,7 +4,7 @@ import data_visualization
 
 
 def main():
-    nome_arquivo = "../data/dados_climaticos.csv"
+    nome_arquivo = "../data/climate_data.csv"
     df = data_loader.ler_dados_climaticos(nome_arquivo)
 
     if df is None:
