@@ -23,7 +23,7 @@ python deteccao_mudancas_temperatura.py data/dados_climaticos.csv 2
 
 Este exemplo irá detectar mudanças significativas na temperatura usando um limiar de 2 graus Celsius.
 
-## Exemplo de Gráfico Gerado:
+## Exemplo de Gráfico Gerado
 
 ![image](https://github.com/PedroSmaxY/MonitoramentoClimatico/assets/127573080/276c5ec3-4341-4eec-9d23-3aa6db22a762)
 
