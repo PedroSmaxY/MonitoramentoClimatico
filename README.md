@@ -16,6 +16,7 @@ Para usar o programa, siga estas etapas:
 
 1. Insira o caminho do arquivo CSV com os dados climáticos no argumento `nome_arquivo` no arquivo src/main.py.
 2. Insira o limiar de mudança significativa no argumento `limiar` no arquivo src/main.py.
+3. Execute o arquivo src/main.py para gerar o gráfico dos dados fornecidos.
 
 ## Exemplo
 
