@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('TkAgg')
 
 
 def visualizar_dados(df, mudancas):
@@ -13,7 +15,8 @@ def visualizar_dados(df, mudancas):
     except KeyError:
         print("A coluna 'Media' não existe no DataFrame.")
 
-    plt.scatter(mudancas['Data'], mudancas['Temperatura'], color='red', label='Mudanças significativas')
+    plt.scatter(mudancas['Data'], mudancas['Temperatura'],
+                color='red', label='Mudanças significativas')
     plt.ylim(0, 50)
     plt.grid(True)
     plt.legend()
